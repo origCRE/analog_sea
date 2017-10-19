@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>SignUp</title>
+	<!-- google roboto font -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<!-- the stylesheet -->
+	<link rel="stylesheet" href="css/signup.css">
+</head>
+<body>
+	<img class="logo" src="files/logo.png" alt="logo" />
+	<form class="signUpForm" action="/signup/" method="POST">
+		<fieldset>
+			<legend>Sign Up</legend>
+			<label for="email">Email</label>
+			<input placeholder="foo@bar.com" type="email" name="email" required/>
+			<label for="email">Password</label>
+			<input placeholder="1234passw0rd" type="password" name="psw" required/>
+			<button type="signup">Sign up</button>
+		</fieldset>
+			<a class="forgot" href="/forgot-password/new">Forgot password?</a>
+
+	</form>
+
+
+	<footer role="contentInfo" class="footer">
+			<a class="login" href="/login">Already have an account? Login </a>
+	</footer>
+
+</body>
+
+</html>
